@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int num, resultado, uni, dec, cent, mil;
+
+main()
+{
+    printf("ingrese numero \n");
+    scanf("%d", &num);
+    if (num >100)
+        printf("es mayor que 100");
+        else 
+            printf("es menor a 100");
+    return 0;
+
+       
+}
