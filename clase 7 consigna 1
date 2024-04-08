@@ -1,0 +1,15 @@
+main()
+{
+    int i=0;
+    int x=0;
+    
+    for (i; i<=80; i++)
+        printf("I -----> %d\n", i);
+        if ((i !=0)&& (i%10==0))
+            {x=x+2;
+            printf("x -----> %d \n", x);
+            return 0;
+            }
+        
+    
+}
